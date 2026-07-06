@@ -24,3 +24,5 @@ app.use('/proxy', createProxyMiddleware({
 app.listen(PORT, () => {
     console.log(`Proxy server is running at http://localhost:${PORT}`);
 });
+cd path/to/your/cy3borg
+node server.js
